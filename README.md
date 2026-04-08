@@ -1,87 +1,87 @@
-# مراجعة مسائل Python
+# Python Problem Review
 
-## عن المشروع
+## About the Project
 
-هذا المستودع يحتوي على مجموعة من تمارين Python مصنفة حسب الموضوعات الأساسية: القواميس، القوائم، السلاسل النصية، المجموعات، وال tuples، بالإضافة إلى بعض الأمثلة الخاصة بالـ linked list.
+This repository contains a collection of Python exercises organized by core topics: dictionaries, lists, strings, sets, tuples, and some linked list examples.
 
-الهدف من المشروع هو تجميع حلول وملاحظات لمشاكل برمجية بسيطة ومتوسطة لتقوية مهارات Python الأساسية.
-
----
-
-## هيكل المجلدات
-
-- `dict/` - تمارين ومعالجات القواميس (Dictionaries)
-- `linked-list/` - نماذج بسيطة عن بنية البيانات المرتبطة (Linked List) وبعض التمارين المرتبطة
-- `list/` - تمارين ومشاكل على القوائم (Lists) وعملياتها
-- `sets/` - تمارين على المجموعات (Sets)
-- `str/` - تمارين على السلاسل النصية (Strings)
-- `tuple/` - مثال واحد على التعامل مع tuples
+The goal of this project is to gather solutions and notes for simple to intermediate programming problems to strengthen basic Python skills.
 
 ---
 
-## محتوى المجلدات
+## Directory Structure
+
+- `dict/` - exercises and examples for dictionaries
+- `linked-list/` - simple linked list examples and related exercises
+- `list/` - list-based problems and operations
+- `sets/` - set exercises
+- `str/` - string exercises
+- `tuple/` - a single example of tuple manipulation
+
+---
+
+## Folder Contents
 
 ### dict/
 
-- `d1.py` - أمثلة على إنشاء قاموس، استخدام المفاتيح والقيم، وطرق الوصول مثل `get()` و`keys()` و`values()`.
-- `d2.py` - مسائل عد التكرارات في قوائم، تبديل المفاتيح والقيم في قاموس، وملاحظات على تركيب القواميس.
-- `d3.py` - عد الأحرف في سلسلة، دمج قاموسين، وإزالة التكرارات من قائمة.
-- `d4.py` - حساب تكرار الأحرف، إيجاد العنصر الأكثر تكرارًا، والتحقق من عدم التكرار.
-- `d5.py` - مثال عملي بسيط على قاموس سيارة واسترجاع القيمة بواسطة المفتاح.
-- `happeynum.py` - حل لمسألة Happy Number مع استخدام قاموس لتتبع الأرقام التي ظهرت سابقًا.
+- `d1.py` - examples of creating dictionaries, accessing keys/values, and using `get()`, `keys()`, and `values()`.
+- `d2.py` - frequency counting in lists, swapping dictionary keys and values, and dictionary construction notes.
+- `d3.py` - counting characters in a string, merging dictionaries, and removing duplicates from a list.
+- `d4.py` - counting character frequency, finding the most frequent element, and checking for uniqueness.
+- `d5.py` - a simple example of a car dictionary and retrieving values by key.
+- `happeynum.py` - a Happy Number solution using a dictionary to track seen numbers.
 
 ### linked-list/
 
-- `list1.py` - تعريف بسيط لـ `Node` و`Linkedlist` ودالة `append` لإضافة عناصر في نهاية القائمة المرتبطة.
-- `list2.py` - حل لمسألة `judgeSquareSum` التي تتحقق إن كان رقم يمكن تمثيله كمجموع مربعين.
-- `list3.py` - ملف فارغ حالياً، يمكن استخدامه لإضافة تمارين مرتبطة لاحقًا.
+- `list1.py` - a basic `Node` and `Linkedlist` implementation with `append` for adding nodes to the end.
+- `list2.py` - a solution for `judgeSquareSum`, checking if a number can be expressed as the sum of two squares.
+- `list3.py` - currently empty, available for adding more linked list exercises.
 
 ### list/
 
-- `codeforces_list.py` - مثال على قراءة الأعداد وجمعها؛ يتضمن نسخة جاهزة للتشغيل.
-- `l1.py` - مسائل على القوائم مثل إيجاد الأرقام الزوجية وإزالة التكرارات.
-- `l2.py` - مثال يوضح أن `nums2 = nums` يشارك نفس القائمة، و `+=` يغير القائمة الأصلية.
-- `l3.py` - تمارين على القوائم تشمل الطباعة الشرطية، التعديل، والتعامل مع الأصفار.
-- `l4.leetcode.py` - مسألة Two Sum بشكل بسيط مع حل باستخدام مؤشرين.
-- `leetcode-twosum.py` - ملف فارغ حاليًا لكنه يدل على موضوع LeetCode.
-- `leetcode.py` - حل لمسألة حساب مجموع عناصر الـ odd-length subarrays.
-- `leetcodelist.py` - مثال بسيط على عد العناصر الفردية داخل قائمة.
-- `list comprehension.py` - مثال عملي على استخدام list comprehension لتصفية عناصر.
+- `codeforces_list.py` - an example of reading numbers and summing them; includes a runnable version.
+- `l1.py` - list problems such as finding even numbers and removing duplicates.
+- `l2.py` - demonstrates that `nums2 = nums` shares the same list and `+=` mutates the original list.
+- `l3.py` - list exercises including conditional printing, modification, and handling zeros.
+- `l4.leetcode.py` - a simple Two Sum problem solution using two pointers.
+- `leetcode-twosum.py` - currently empty, but indicates a LeetCode-themed exercise.
+- `leetcode.py` - a solution for summing odd-length subarrays.
+- `leetcodelist.py` - a simple example counting odd elements in a list.
+- `list comprehension.py` - a practical list comprehension example for filtering elements.
 
 ### sets/
 
-- `s1.py` - قطعة شيفرة تقوم بتغيير حرف في موقع محدد داخل سلسلة؛ مستوحاة من تحدي Hackerrank.
-- `s2.py` - أمثلة على إنشاء مجموعة، إضافة عنصر، وتحديث مجموعة أخرى.
+- `s1.py` - code that replaces a character at a specified position in a string, inspired by a Hackerrank challenge.
+- `s2.py` - examples of creating sets, adding items, and updating one set with another.
 
 ### str/
 
-- `1.py` - وظائف لمعالجة السلاسل: عد الحروف الكبيرة، استبدال الفراغات، والتعامل مع palindrome.
-- `2.py` - أمثلة على عد الحروف المتحركة وعكس الكلمات في الجملة.
-- `3.py` - تنظيف المسافات الزائدة وتحويل كل كلمة إلى Title Case.
-- `4.py` - دوال إضافية لتنظيف السلاسل وتحويل الكلمات إلى شكل منسق.
-- `5.py` - مجموعة من المسائل النصية: أول وآخر حرف، قلب السلسلة، التحقق من palindrome، وعدّ الكلمات.
+- `1.py` - string manipulation functions: counting uppercase letters, replacing spaces, and palindrome checks.
+- `2.py` - examples of counting vowels and reversing words in a sentence.
+- `3.py` - trimming extra spaces and converting each word to title case.
+- `4.py` - additional string utilities for cleaning and formatting text.
+- `5.py` - several string tasks: first and last character, reverse string, palindrome check, and word count.
 
 ### tuple/
 
-- `t1.py` - مثال على التعامل مع الـ tuple، تحويله إلى قائمة للتعديل ثم إعادته إلى tuple.
+- `t1.py` - a tuple example demonstrating conversion to a list for modification and back to a tuple.
 
 ---
 
-## كيف تستخدم هذا المشروع
+## How to Use This Project
 
-1. افتح مجلد المشروع في بيئة تطوير مثل VS Code.
-2. شغل الملف الذي تريد تجربته مباشرةً.
-3. يمكنك تعديل الملفات أو إضافة حلول جديدة في أي مجلد.
+1. Open the project folder in an editor like VS Code.
+2. Run the file you want to test directly.
+3. You can modify the files or add new solutions in any folder.
 
-### تشغيل ملف Python
+### Running a Python File
 
-يمكنك تشغيله من الطرفية:
+Run from the terminal:
 
 ```powershell
 python path\to\file.py
 ```
 
-مثال:
+Example:
 
 ```powershell
 python dict\happeynum.py
@@ -89,25 +89,25 @@ python dict\happeynum.py
 
 ---
 
-## ملاحظات ونصائح
+## Notes and Tips
 
-- معظم الملفات تحتوي على حلول مكتوبة بشكل مباشر أو على هيئة تعليقات تمهيدية، لذلك يمكنك فتح الملف وقراءة الفكرة قبل التشغيل.
-- إذا أردت تنظيم المشروع أكثر، يمكن تحويل كل مسألة إلى دالة واختبارها باستخدام `unittest` أو `pytest`.
-- الملفات ذات الأسماء الفارغة مثل `linked-list/list3.py` و `list/leetcode-twosum.py` يمكن استخدامها لإضافة تمارين جديدة لاحقًا.
-
----
-
-## تطوير المشروع
-
-يمكن تحسين المشروع بإضافة:
-
-- وحدة اختبار لكل مجموعة مسائل.
-- README مخصوص لكل مجلد يحتوي على وصف تفصيلي لكل ملف.
-- حلول أكثر تنظيمًا باستخدام دوال وفئات.
-- أمثلة إدخال/إخراج لكل مسألة.
+- Most files contain direct solutions or commented starter code, so read the file first before running it.
+- To improve organization, consider refactoring each exercise into functions and testing them with `unittest` or `pytest`.
+- Empty files such as `linked-list/list3.py` and `list/leetcode-twosum.py` are ready for new exercises.
 
 ---
 
-## الترخيص
+## Project Improvements
 
-المشروع مخصص للمراجعة الشخصية والتعلم. يمكن نسخه وتعديله بحرية لأغراض تعليمية.
+You can enhance this repository by adding:
+
+- test suites for each exercise group
+- separate README files for each folder with detailed descriptions
+- more structured solutions using functions and classes
+- input/output examples for each problem
+
+---
+
+## License
+
+This project is intended for personal review and learning. It may be copied and modified freely for educational use.
