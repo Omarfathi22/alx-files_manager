@@ -1,20 +1,113 @@
-# Files Manager
+# مراجعة مسائل Python
 
-## Description
-Files Manager is a simple file management platform built as a learning project. It integrates **Node.js**, **Redis**, and **MongoDB** to provide essential functionalities such as file uploads, authentication, and data storage. The project demonstrates how to create a back-end application using modern tools and technologies while emphasizing modular design and scalability.
+## عن المشروع
+
+هذا المستودع يحتوي على مجموعة من تمارين Python مصنفة حسب الموضوعات الأساسية: القواميس، القوائم، السلاسل النصية، المجموعات، وال tuples، بالإضافة إلى بعض الأمثلة الخاصة بالـ linked list.
+
+الهدف من المشروع هو تجميع حلول وملاحظات لمشاكل برمجية بسيطة ومتوسطة لتقوية مهارات Python الأساسية.
 
 ---
 
-## Features
-- **User Authentication**: Secure user access with token-based authentication.
-- **File Management**:
-  - Upload files.
-  - List all uploaded files.
-  - Change file permissions.
-  - View specific files.
-  - Generate thumbnails for images.
-- **Data Storage**:
-  - Persistent data storage using **MongoDB**.
-  - Temporary data storage using **Redis**.
-- **Background Workers**:
-  - Handle tasks like image thumbnail generation in the background.
+## هيكل المجلدات
+
+- `dict/` - تمارين ومعالجات القواميس (Dictionaries)
+- `linked-list/` - نماذج بسيطة عن بنية البيانات المرتبطة (Linked List) وبعض التمارين المرتبطة
+- `list/` - تمارين ومشاكل على القوائم (Lists) وعملياتها
+- `sets/` - تمارين على المجموعات (Sets)
+- `str/` - تمارين على السلاسل النصية (Strings)
+- `tuple/` - مثال واحد على التعامل مع tuples
+
+---
+
+## محتوى المجلدات
+
+### dict/
+
+- `d1.py` - أمثلة على إنشاء قاموس، استخدام المفاتيح والقيم، وطرق الوصول مثل `get()` و`keys()` و`values()`.
+- `d2.py` - مسائل عد التكرارات في قوائم، تبديل المفاتيح والقيم في قاموس، وملاحظات على تركيب القواميس.
+- `d3.py` - عد الأحرف في سلسلة، دمج قاموسين، وإزالة التكرارات من قائمة.
+- `d4.py` - حساب تكرار الأحرف، إيجاد العنصر الأكثر تكرارًا، والتحقق من عدم التكرار.
+- `d5.py` - مثال عملي بسيط على قاموس سيارة واسترجاع القيمة بواسطة المفتاح.
+- `happeynum.py` - حل لمسألة Happy Number مع استخدام قاموس لتتبع الأرقام التي ظهرت سابقًا.
+
+### linked-list/
+
+- `list1.py` - تعريف بسيط لـ `Node` و`Linkedlist` ودالة `append` لإضافة عناصر في نهاية القائمة المرتبطة.
+- `list2.py` - حل لمسألة `judgeSquareSum` التي تتحقق إن كان رقم يمكن تمثيله كمجموع مربعين.
+- `list3.py` - ملف فارغ حالياً، يمكن استخدامه لإضافة تمارين مرتبطة لاحقًا.
+
+### list/
+
+- `codeforces_list.py` - مثال على قراءة الأعداد وجمعها؛ يتضمن نسخة جاهزة للتشغيل.
+- `l1.py` - مسائل على القوائم مثل إيجاد الأرقام الزوجية وإزالة التكرارات.
+- `l2.py` - مثال يوضح أن `nums2 = nums` يشارك نفس القائمة، و `+=` يغير القائمة الأصلية.
+- `l3.py` - تمارين على القوائم تشمل الطباعة الشرطية، التعديل، والتعامل مع الأصفار.
+- `l4.leetcode.py` - مسألة Two Sum بشكل بسيط مع حل باستخدام مؤشرين.
+- `leetcode-twosum.py` - ملف فارغ حاليًا لكنه يدل على موضوع LeetCode.
+- `leetcode.py` - حل لمسألة حساب مجموع عناصر الـ odd-length subarrays.
+- `leetcodelist.py` - مثال بسيط على عد العناصر الفردية داخل قائمة.
+- `list comprehension.py` - مثال عملي على استخدام list comprehension لتصفية عناصر.
+
+### sets/
+
+- `s1.py` - قطعة شيفرة تقوم بتغيير حرف في موقع محدد داخل سلسلة؛ مستوحاة من تحدي Hackerrank.
+- `s2.py` - أمثلة على إنشاء مجموعة، إضافة عنصر، وتحديث مجموعة أخرى.
+
+### str/
+
+- `1.py` - وظائف لمعالجة السلاسل: عد الحروف الكبيرة، استبدال الفراغات، والتعامل مع palindrome.
+- `2.py` - أمثلة على عد الحروف المتحركة وعكس الكلمات في الجملة.
+- `3.py` - تنظيف المسافات الزائدة وتحويل كل كلمة إلى Title Case.
+- `4.py` - دوال إضافية لتنظيف السلاسل وتحويل الكلمات إلى شكل منسق.
+- `5.py` - مجموعة من المسائل النصية: أول وآخر حرف، قلب السلسلة، التحقق من palindrome، وعدّ الكلمات.
+
+### tuple/
+
+- `t1.py` - مثال على التعامل مع الـ tuple، تحويله إلى قائمة للتعديل ثم إعادته إلى tuple.
+
+---
+
+## كيف تستخدم هذا المشروع
+
+1. افتح مجلد المشروع في بيئة تطوير مثل VS Code.
+2. شغل الملف الذي تريد تجربته مباشرةً.
+3. يمكنك تعديل الملفات أو إضافة حلول جديدة في أي مجلد.
+
+### تشغيل ملف Python
+
+يمكنك تشغيله من الطرفية:
+
+```powershell
+python path\to\file.py
+```
+
+مثال:
+
+```powershell
+python dict\happeynum.py
+```
+
+---
+
+## ملاحظات ونصائح
+
+- معظم الملفات تحتوي على حلول مكتوبة بشكل مباشر أو على هيئة تعليقات تمهيدية، لذلك يمكنك فتح الملف وقراءة الفكرة قبل التشغيل.
+- إذا أردت تنظيم المشروع أكثر، يمكن تحويل كل مسألة إلى دالة واختبارها باستخدام `unittest` أو `pytest`.
+- الملفات ذات الأسماء الفارغة مثل `linked-list/list3.py` و `list/leetcode-twosum.py` يمكن استخدامها لإضافة تمارين جديدة لاحقًا.
+
+---
+
+## تطوير المشروع
+
+يمكن تحسين المشروع بإضافة:
+
+- وحدة اختبار لكل مجموعة مسائل.
+- README مخصوص لكل مجلد يحتوي على وصف تفصيلي لكل ملف.
+- حلول أكثر تنظيمًا باستخدام دوال وفئات.
+- أمثلة إدخال/إخراج لكل مسألة.
+
+---
+
+## الترخيص
+
+المشروع مخصص للمراجعة الشخصية والتعلم. يمكن نسخه وتعديله بحرية لأغراض تعليمية.
